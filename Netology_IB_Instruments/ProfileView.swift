@@ -21,7 +21,5 @@ class ProfileView: UIView {
         // Drawing code
     }
     */
-    var vc : ProfileView =  ProfileView()//Как запустить файл xib на симуляторе
-
 
 }
