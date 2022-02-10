@@ -14,6 +14,10 @@
             <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" insetsLayoutMarginsFromSafeArea="NO" image="bender" id="ZEw-JN-qp6">
+                    <rect key="frame" x="44" y="44" width="136" height="120"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="A3j-oF-VD7">
                     <rect key="frame" x="207" y="44" width="186" height="24"/>
                     <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -44,14 +48,11 @@
                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                     <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                 </textView>
-                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" insetsLayoutMarginsFromSafeArea="NO" image="bender" id="ZEw-JN-qp6">
-                    <rect key="frame" x="44" y="44" width="136" height="120"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                </imageView>
             </subviews>
             <viewLayoutGuide key="safeArea" id="O24-jm-SQz"/>
             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
             <connections>
+                <outlet property="imageView" destination="ZEw-JN-qp6" id="50u-sI-FCV"/>
                 <outlet property="labelBirthday" destination="idR-1j-Cim" id="Znc-at-leo"/>
                 <outlet property="labelLocation" destination="Ul6-Ro-lkK" id="S89-2h-gEU"/>
                 <outlet property="labelName" destination="A3j-oF-VD7" id="EOS-Cw-TGc"/>
